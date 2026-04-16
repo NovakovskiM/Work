@@ -7,6 +7,7 @@
 
 ## ____________________________________________
 
+
 ## FUNCIONALIDADES: 
 - Cadastro de moradores
 - Listagem de moradores
@@ -14,6 +15,7 @@
 - Registro de pagamentos
 
 ## ____________________________________________
+
 
 ## APLICAÇÃO DE CONCEITOS:
 * Programação Orientada a Objetos
@@ -27,6 +29,7 @@
 
 ## ____________________________________________
 
+
 ## COMO EXECUTAR:
 1. Instale o Python;
 2. Abra o terminal na pasta do projeto;
@@ -37,6 +40,7 @@ python main.py
 Obs: Python 3.10 ou superior
 
 ## ____________________________________________
+
 
 ## Desafios encontrados:
 O principal desafio foi adaptar conceitos de linguagen C e Java para Python, principalmente no uso de herança, polimorfismo e tratamento de exceções.
