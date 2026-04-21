@@ -2,6 +2,8 @@
 Este projeto é um sistema simples de gerenciamento de condomínio desenvolvido em Python, com foco em aplicar conceitos fundamentais de Programação Orientada a Objetos (POO).
 O sistema permite o cadastro de moradores, geração e controle de pagamentos, utilizando boas práticas como herança, encapsulamento, tratamento de exceções e uso de dataclasses.
 
+## ____________________________________________
+
 ## INTEGRANTES: 
 - Daniel Cricco
 - Lucas Medeiros
