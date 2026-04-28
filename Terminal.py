@@ -101,7 +101,7 @@ class Sistema:
             morador = Morador(nome, cpf, login, ap)
             self.moradores.append(morador)
 
-            print("✅ Morador cadastrado!")
+            print("Morador cadastrado!")
 
         except Exception as e:
             print("Erro:", e)
@@ -119,7 +119,7 @@ class Sistema:
             pagamento = Pagamento(morador, valor)
 
             self.pagamentos.append(pagamento)
-            print("💰 Pagamento criado!")
+            print("Pagamento criado!")
 
         except Exception as e:
             print("Erro:", e)
@@ -132,7 +132,7 @@ class Sistema:
             for p in self.pagamentos:
                 if p.morador == morador:
                     p.pagar()
-                    print("✅ Pago!")
+                    print("Pago!")
                     return
 
             print("Nenhum pagamento encontrado.")
