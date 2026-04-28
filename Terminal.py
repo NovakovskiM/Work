@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-# ================= EXCEÇÕES PERSONALIZADAS =================
+# EXCEÇÕES PERSONALIZADAS
 
 class MoradorNaoEncontrado(Exception):
     pass
@@ -10,7 +10,7 @@ class PagamentoJaRealizado(Exception):
     pass
 
 
-# ================= DATACLASS =================
+# DATACLASS
 
 @dataclass
 class Endereco:
@@ -18,7 +18,7 @@ class Endereco:
     numero: int
 
 
-# ================= HERANÇA =================
+# HERANÇA
 
 class Pessoa:
     def __init__(self, nome: str, cpf: str):
@@ -47,7 +47,7 @@ class Morador(Usuario):
         return f"Morador: {self.nome} - Ap {self.apartamento}"
 
 
-# ================= HERANÇA MÚLTIPLA =================
+# HERANÇA MÚLTIPLA
 
 class Financeiro:
     def calcular_taxa(self):
@@ -58,7 +58,7 @@ class MoradorFinanceiro(Morador, Financeiro):
     pass
 
 
-# ================= PAGAMENTO =================
+# PAGAMENTO
 
 class Pagamento:
     def __init__(self, morador: Morador, valor: float):
@@ -76,7 +76,7 @@ class Pagamento:
         return f"{self.morador.nome} - R${self.valor} - {status}"
 
 
-# ================= SISTEMA =================
+# SISTEMA
 
 class Sistema:
     def __init__(self):
@@ -145,7 +145,7 @@ class Sistema:
             print(p)
 
 
-# ================= MENU =================
+# MENU
 
 def menu():
     sistema = Sistema()
