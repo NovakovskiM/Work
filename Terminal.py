@@ -20,10 +20,10 @@ class Endereco:
 
 # HERANÇA
 
+@dataclass
 class Pessoa:
-    def __init__(self, nome: str, cpf: str):
-        self.nome = nome
-        self.cpf = cpf
+    nome: str
+    cpf: str
 
     def apresentar(self):
         return f"Pessoa: {self.nome}"
